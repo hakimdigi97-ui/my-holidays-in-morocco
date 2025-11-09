@@ -1,177 +1,43 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Holidays in Morocco — Luxury • Sport • Events</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css"></head><body>
+<header class="header"><div class="container nav">
+<a class="brand" href="index.html">My Holidays in Morocco</a>
+<nav class="menu">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="destinations.html">Destinations</a>
+<a href="sports.html">Travel with Sports</a>
+<a href="events.html">Events</a>
+<a href="blog.html">Blog</a>
+<a href="contact.html" class="cta">Plan My Trip</a>
+</nav></div></header>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog | My Holidays in Morocco</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              'brand-gold': '#D4AF37',
-              'brand-dark': '#1a202c',
-              'brand-light': '#f7fafc',
-            },
-            fontFamily: {
-              'serif': ['Georgia', 'serif'],
-              'sans': ['Helvetica', 'Arial', 'sans-serif'],
-            }
-          }
-        }
-      }
-    </script>
-</head>
-<body class="bg-brand-light text-brand-dark">
-    <div class="flex flex-col min-h-screen font-sans">
-      <header class="bg-brand-dark shadow-lg sticky top-0 z-50">
-        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="flex items-center justify-between h-20">
-            <div class="flex items-center">
-              <a href="index.html" class="flex-shrink-0">
-                <img class="h-16 w-auto" src="https://storage.googleapis.com/prompt-gallery/prod/images/5f7253b3-8515-45a8-944a-d68a9fc8e718/0.jpeg" alt="My Holidays in Morocco Logo" />
-              </a>
-            </div>
-            <div class="hidden md:block">
-              <div class="ml-10 flex items-baseline space-x-4">
-                <a href="index.html" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white transition-colors">Home</a>
-                <a href="about.html" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white transition-colors">About Us</a>
-                <a href="destinations.html" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white transition-colors">Destinations</a>
-                <a href="sports.html" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white transition-colors">Sports</a>
-                <a href="events.html" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white transition-colors">Events</a>
-                <a href="blog.html" class="px-3 py-2 rounded-md text-sm font-medium transition-colors bg-gray-900 text-white">Blog</a>
-              </div>
-            </div>
-            <div class="-mr-2 flex md:hidden">
-              <button id="mobile-menu-button" type="button" class="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <i id="mobile-menu-icon-open" class="fas fa-bars h-6 w-6 block"></i>
-                <i id="mobile-menu-icon-close" class="fas fa-times h-6 w-6 hidden"></i>
-              </button>
-            </div>
-          </div>
-        </nav>
-        <div class="md:hidden hidden" id="mobile-menu">
-          <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="index.html" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white transition-colors">Home</a>
-            <a href="about.html" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white transition-colors">About Us</a>
-            <a href="destinations.html" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white transition-colors">Destinations</a>
-            <a href="sports.html" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white transition-colors">Sports</a>
-            <a href="events.html" class="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white transition-colors">Events</a>
-            <a href="blog.html" class="block px-3 py-2 rounded-md text-sm font-medium transition-colors bg-gray-900 text-white">Blog</a>
-          </div>
-        </div>
-      </header>
-      
-      <main class="flex-grow">
-        <div class="relative h-96 bg-cover bg-center" style="background-image: url(https://images.unsplash.com/photo-1532100895994-3950c4143789?q=80&w=1920&auto=format&fit=crop)">
-          <div class="absolute inset-0 bg-black opacity-50"></div>
-          <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
-            <h1 class="text-4xl md:text-6xl font-bold font-serif text-brand-gold drop-shadow-lg">Tales from Morocco</h1>
-            <p class="mt-4 text-lg md:text-xl max-w-2xl drop-shadow-md">Stories, tips, and inspiration from our travels across this incredible land.</p>
-          </div>
-        </div>
-        <div class="py-20 bg-brand-light">
-          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid gap-12 lg:grid-cols-3">
-              
-              <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img class="w-full h-56 object-cover object-center" src="https://images.unsplash.com/photo-1559138650-631e7845f06f?q=80&w=800&auto=format&fit=crop" alt="A Culinary Journey Through Fes" />
-                <div class="p-6">
-                  <h2 class="text-2xl font-bold text-brand-dark mb-2 font-serif">A Culinary Journey Through Fes</h2>
-                  <div class="flex items-center text-gray-500 text-sm mb-4">
-                    <span>By Aisha Benali</span>
-                    <span class="mx-2">|</span>
-                    <span>October 26, 2023</span>
-                  </div>
-                  <p class="text-gray-700 leading-relaxed mb-4">Discover the hidden flavors of Morocco's ancient spiritual capital, from street-side tagines to rooftop dining experiences.</p>
-                  <a href="#" class="text-brand-gold hover:text-brand-dark font-bold">Read More &rarr;</a>
-                </div>
-              </div>
-
-              <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img class="w-full h-56 object-cover object-center" src="https://images.unsplash.com/photo-1542391038-735e5d30438a?q=80&w=800&auto=format&fit=crop" alt="5 Tips for Your First Sahara Desert Trek" />
-                <div class="p-6">
-                  <h2 class="text-2xl font-bold text-brand-dark mb-2 font-serif">5 Tips for Your First Sahara Desert Trek</h2>
-                  <div class="flex items-center text-gray-500 text-sm mb-4">
-                    <span>By Youssef El Amrani</span>
-                    <span class="mx-2">|</span>
-                    <span>October 15, 2023</span>
-                  </div>
-                  <p class="text-gray-700 leading-relaxed mb-4">Heading into the golden dunes? Here are our essential tips for making your desert adventure safe, comfortable, and magical.</p>
-                  <a href="#" class="text-brand-gold hover:text-brand-dark font-bold">Read More &rarr;</a>
-                </div>
-              </div>
-
-              <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img class="w-full h-56 object-cover object-center" src="https://images.unsplash.com/photo-1610057099443-9c8699872013?q=80&w=800&auto=format&fit=crop" alt="The Art of the Riad: Finding Serenity in Marrakech" />
-                <div class="p-6">
-                  <h2 class="text-2xl font-bold text-brand-dark mb-2 font-serif">The Art of the Riad: Finding Serenity in Marrakech</h2>
-                  <div class="flex items-center text-gray-500 text-sm mb-4">
-                    <span>By Aisha Benali</span>
-                    <span class="mx-2">|</span>
-                    <span>September 28, 2023</span>
-                  </div>
-                  <p class="text-gray-700 leading-relaxed mb-4">Step behind the unassuming doors of the medina and discover the tranquil, courtyard oases that are Moroccan riads.</p>
-                  <a href="#" class="text-brand-gold hover:text-brand-dark font-bold">Read More &rarr;</a>
-                </div>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </main>
-
-      <footer class="bg-brand-dark text-white">
-        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="space-y-4">
-              <h3 class="text-lg font-semibold text-brand-gold font-serif">My Holidays in Morocco</h3>
-              <p class="text-gray-400">Crafting unforgettable luxury and adventure travel in the heart of Morocco.</p>
-            </div>
-            <div class="space-y-4">
-              <h3 class="text-lg font-semibold text-brand-gold font-serif">Contact Us</h3>
-              <ul class="space-y-2 text-gray-400">
-                <li>
-                  <i class="fas fa-envelope mr-2"></i> 
-                  <a href="mailto:myholidaysinmocorro@gmail.com" class="hover:text-brand-gold transition-colors">
-                    myholidaysinmocorro@gmail.com
-                  </a>
-                </li>
-                <li><i class="fas fa-phone mr-2"></i> +212 641 266 146</li>
-                <li><i class="fas fa-map-marker-alt mr-2"></i> Marrakech, Morocco</li>
-              </ul>
-            </div>
-            <div class="space-y-4">
-              <h3 class="text-lg font-semibold text-brand-gold font-serif">Follow Us</h3>
-              <div class="flex space-x-6">
-                <a href="https://www.instagram.com/myholidaysinmorocco?igsh=OGszd2w2ZnR2dHJp" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-brand-gold"><i class="fab fa-instagram text-xl"></i></a>
-                <a href="https://www.pinterest.com/myholidaysinmorocco/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-brand-gold"><i class="fab fa-pinterest text-xl"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="mt-8 border-t border-gray-700 pt-8 text-center text-gray-400">
-            <p>&copy; <span id="copyright-year"></span> My Holidays in Morocco. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
-    </div>
-    <script>
-      document.getElementById('copyright-year').textContent = new Date().getFullYear();
-      const menuButton = document.getElementById('mobile-menu-button');
-      const mobileMenu = document.getElementById('mobile-menu');
-      const openIcon = document.getElementById('mobile-menu-icon-open');
-      const closeIcon = document.getElementById('mobile-menu-icon-close');
-      menuButton.addEventListener('click', () => {
-        const isExpanded = menuButton.getAttribute('aria-expanded') === 'true';
-        menuButton.setAttribute('aria-expanded', !isExpanded);
-        mobileMenu.classList.toggle('hidden');
-        openIcon.classList.toggle('hidden');
-        closeIcon.classList.toggle('hidden');
-      });
-    </script>
-</body>
-</html>
+<section class="section"><div class="container">
+  <h2>Blog & Inspirations</h2><p class="lead">Stories about culture, sport, destinations, gastronomy, and event design.</p>
+  <div id="blog-list" class="grid cards"></div>
+</div></section>
+<footer class="footer"><div class="container">
+<div class="grid">
+  <div><div class="brand">My Holidays in Morocco</div><p class="small">Luxury • Culture • Sport • Events</p></div>
+  <div><strong>Explore</strong><div class="hr"></div><div class="small">
+    <div><a href="index.html">Home</a></div>
+    <div><a href="about.html">About</a></div>
+    <div><a href="destinations.html">Destinations</a></div>
+    <div><a href="sports.html">Travel with Sports</a></div>
+    <div><a href="events.html">Events</a></div>
+    <div><a href="blog.html">Blog</a></div>
+    <div><a href="contact.html">Contact</a></div>
+  </div></div>
+  <div><strong>Contact</strong><div class="hr"></div><div class="small">
+    <div>concierge@myholidaysinmorocco.com</div>
+    <div>WhatsApp: +212 6 00 00 00 00</div>
+    <div>Instagram: @myholidaysinmorocco</div>
+  </div></div>
+  <div><strong>Newsletter</strong><div class="hr"></div>
+    <input class="input" placeholder="Your email"><div style="height:8px"></div><button class="cta">Join</button>
+  </div>
+</div><div class="hr"></div><div class="small">© 2025 My Holidays in Morocco. All rights reserved.</div></div>
+<script src="assets/site.js"></script></footer></body></html>
